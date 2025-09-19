@@ -2,7 +2,7 @@
    let listaDeNumerosSorteados = [];
 
 // Variável que ira receber uma quantidade de números:
-   let limiteDeNumeros = 10;
+   let limiteDeNumeros = 100;
 
 // Variável que ira receber uma função que gera um número secreto:
    let numeroSecreto = gerarNumeroSecreto();
@@ -37,7 +37,7 @@
 // Função para exibir mensagem inicial na tela:
    function mensagemInicial(){
       exibirTextoNaTela('h1', 'Jogo do número secreto!');
-      exibirTextoNaTela('p', 'Escolha um número de 0 à 10 ');
+      exibirTextoNaTela('p', 'Escolha um número de 0 à 100 ');
    }
 
 // Chamando função inicial para mostrar mensagem inicial na tela:
